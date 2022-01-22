@@ -11,7 +11,7 @@ function App() {
       <NavigationBar />
       <Routes>
         <Route exact path="/add" element={<AddRecipe />} />
-        <Route exact path="/edit" element={<EditRecipe />} />
+        <Route exact path="/edit/:id" element={<EditRecipe />} />
         <Route path="/" element={<Home />} />
       </Routes>
     </BrowserRouter>

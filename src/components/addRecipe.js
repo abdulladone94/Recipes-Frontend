@@ -37,9 +37,9 @@ export default function AddRecipe() {
   return (
     <form onSubmit={handleRecipeInputs}>
       <Box
+        className="addRecipe"
         sx={{
           "& > :not(style)": { m: 1, width: "50ch" },
-          display: "inline-grid",
         }}
         noValidate
         autoComplete="off"
